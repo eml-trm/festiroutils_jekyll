@@ -1,0 +1,20 @@
+---
+title: Edition 2016
+subtitle: Les Festi à Tivoly
+layout: default
+modal-id: 5
+date: 21-07-2016
+img: event2.jpg
+alt: image-alt
+project-date: July 2016
+client: Serge Lavalette
+place: Église de Tillières sur Avre
+artists:
+  - name: Malik Mezzadri
+    instrument: Flûte
+  - name: Sarah Murcia
+    instrument: Contre-basse
+  - name: Serge Lavalette
+    instrument: Invité/Ukulélé
+
+---
