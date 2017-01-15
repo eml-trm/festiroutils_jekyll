@@ -16,13 +16,16 @@
                             <div class="item">
                             {% endif %}
                                 <div class="row">
-                                    {% for y in (start..site.editions.size) limit:3 %}
+                                    {% capture len %}{{ site.editions.size | minus:1 }}{% endcapture %}
+                                    {% for y in (start..len) limit:3 %}
                                         {% assign forloop.index = start %}
+                                        {% capture ind %}{{ len | minus:y }}{% endcapture %}
+                                            <p>{{ ind }}</p>
                                         <div class="col-sm-4">
                                             <div class="single-event">
-                                                <img class="img-responsive" src="images/event/{{ site.editions[y].title }}/{{ site.editions[y].img }}" alt="{{ site.editions[y].alt }}">
-                                                <h4>{{ site.editions[y].title }}</h4>
-                                                <h5>{{ site.editions[y].subtitle }}</h5>
+                                                <img class="img-responsive" src="images/event/{{ site.editions[ind].title }}/{{ site.editions[ind].img }}" alt="{{ site.editions[ind].alt }}">
+                                                <h4>{{ site.editions[ind].title }}</h4>
+                                                <h5>{{ site.editions[ind].subtitle }}</h5>
                                             </div>
                                         </div>
                                     {% endfor %}
