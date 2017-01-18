@@ -3,7 +3,7 @@ title: Edition 2017
 subtitle: Les Festi à Tivoly
 layout: default
 modal-id: 5
-date: 19-07-2016
+date: 15-07-2017
 img: event3.jpg
 alt: image-alt
 project-date: July 2017

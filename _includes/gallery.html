@@ -8,7 +8,9 @@
                     <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
                     <div class="carousel-inner">
                         {% assign start = 0 %}
+                        {% assign tab = site.editions | reverse %}
                         {% capture mod %}{{ site.editions.size | divided_by:3 | round }}{% endcapture %}
+                        {{ mod }}
                         {% for i in (0..mod) %}
                             {% if i == 0 %}
                             <div class="item active">
@@ -16,16 +18,12 @@
                             <div class="item">
                             {% endif %}
                                 <div class="row">
-                                    {% capture len %}{{ site.editions.size | minus:1 }}{% endcapture %}
-                                    {% for y in (start..len) limit:3 %}
-                                        {% assign forloop.index = start %}
-                                        {% capture ind %}{{ len | minus:y }}{% endcapture %}
-                                            <p>{{ ind }}</p>
+                                    {% for item in tab offset:start limit:3 %}
                                         <div class="col-sm-4">
                                             <div class="single-event">
-                                                <img class="img-responsive" src="images/event/{{ site.editions[ind].title }}/{{ site.editions[ind].img }}" alt="{{ site.editions[ind].alt }}">
-                                                <h4>{{ site.editions[ind].title }}</h4>
-                                                <h5>{{ site.editions[ind].subtitle }}</h5>
+                                                <img class="img-responsive" src="images/event/{{ item.title }}/{{ item.img }}" alt="{{ item.alt }}">
+                                                <h4>{{ item.title }}</h4>
+                                                <h5>{{ item.subtitle }}</h5>
                                             </div>
                                         </div>
                                     {% endfor %}
