@@ -9,8 +9,7 @@
                     <div class="carousel-inner">
                         {% assign start = 0 %}
                         {% assign tab = site.editions | reverse %}
-                        {% capture mod %}{{ site.editions.size | divided_by:3 | round }}{% endcapture %}
-                        {{ mod }}
+                        {% capture mod %}{{ site.editions.size | divided_by:3 | ceil }}{% endcapture %}
                         {% for i in (0..mod) %}
                             {% if i == 0 %}
                             <div class="item active">

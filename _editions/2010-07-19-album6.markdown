@@ -1,12 +1,12 @@
 ---
-title: Edition 2017
+title: Edition 2010
 subtitle: Les Festi à Tivoly
 layout: default
 modal-id: 5
-date: 15-07-2017
+date: 15-07-2010
 img: event3.jpg
 alt: image-alt
-project-date: July 2017
+project-date: July 2010
 artists:
   - name: Malik Mezzadri
     instrument: Flûte
