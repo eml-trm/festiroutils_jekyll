@@ -10,7 +10,7 @@
                         {% assign start = 0 %}
                         {% assign tab = site.editions | reverse %}
                         {% capture mod %}{{ site.editions.size | divided_by:3 | ceil }}{% endcapture %}
-                        {% for i in (0..mod) %}
+                        {% for i in (0..mod) | limit:2 %}
                             {% if i == 0 %}
                             <div class="item active">
                             {% else %}
@@ -20,40 +20,17 @@
                                     {% for item in tab offset:start limit:3 %}
                                         <div class="col-sm-4">
                                             <div class="single-event">
-                                                <img class="img-responsive" src="images/event/{{ item.title }}/{{ item.img }}" alt="{{ item.alt }}">
+                                                <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ item.title }}/{{ item.img }}" alt="{{ item.alt }}">
                                                 <h4>{{ item.title }}</h4>
                                                 <h5>{{ item.subtitle }}</h5>
                                             </div>
                                         </div>
                                     {% endfor %}
+                                    <a class="gallery-link" href="/gallery">Toute la galerie<i class="fa fa-angle-left"></i></a>
                                 {% capture start %}{{ start | plus:3 }}{% endcapture %}
                                 </div>
                             </div>
                         {% endfor %}
-                        <!-- <div class="item bands">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="single-event">
-                                        <img class="img-responsive" src="images/event/event1.jpg" alt="event-image">
-                                        <h4>Chester Bennington</h4>
-                                        <h5>Vocal</h5>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="single-event">
-                                        <img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
-                                        <h4>Mike Shinoda</h4>
-                                        <h5>vocals, rhythm guitar</h5>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="single-event">
-                                        <img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
-                                        <h4>Rob Bourdon</h4>
-                                        <h5>drums</h5>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>

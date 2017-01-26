@@ -1,18 +1,12 @@
 ---
 title: Edition 2012
 subtitle: Les Festi à Tivoly
+annee: 2012
 layout: default
 modal-id: 5
 date: 19-07-2012
 img: event2012.jpg
 alt: image-alt
 project-date: July 2012
-artists:
-  - name: Malik Mezzadri
-    instrument: Flûte
-  - name: Sarah Murcia
-    instrument: Contre-basse
-  - name: Serge Lavalette
-    instrument: Invité/Ukulélé
 
 ---
