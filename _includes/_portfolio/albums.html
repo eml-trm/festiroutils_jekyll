@@ -1,0 +1,20 @@
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 portfolio">
+                <h2 class="heading">Galerie photo</h2>
+                {% for image in site.editions %}
+                        <div class="col-sm-4">
+                            <div class="single-event">
+                                <a href="gallery/{{ portfolio.annee }}">
+                                <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ image.title }}/{{ image.img }}" alt="{{ image.alt }}">
+                                </a>
+                                <h4>{{ image.title }}</h4>
+                                <h5>{{ image.subtitle }}</h5>
+                            </div>
+                        </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section><!--/#event-->
