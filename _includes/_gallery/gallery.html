@@ -6,8 +6,8 @@
                 {% for image in site.editions %}
                         <div class="col-sm-4">
                             <div class="single-event">
-                                <a href="gallery/{{ portfolio.annee }}">
-                                <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ image.title }}/{{ image.img }}" alt="{{ image.alt }}">
+                                <a href="album-{{ image.annee }}">
+                                    <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ image.title }}/{{ image.img }}" alt="{{ image.alt }}">
                                 </a>
                                 <h4>{{ image.title }}</h4>
                                 <h5>{{ image.subtitle }}</h5>
