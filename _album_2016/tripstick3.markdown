@@ -1,0 +1,4 @@
+---
+image_path: images/album2016/DSC06102.jpg
+title: Tripstick
+---

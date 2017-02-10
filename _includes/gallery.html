@@ -20,7 +20,9 @@
                                     {% for item in tab offset:start limit:3 %}
                                         <div class="col-sm-4">
                                             <div class="single-event">
-                                                <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ item.title }}/{{ item.img }}" alt="{{ item.alt }}">
+                                                <a href="album-{{ image.annee }}">
+                                                    <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ item.title }}/{{ item.img }}" alt="{{ item.alt }}">
+                                                </a>    
                                                 <h4>{{ item.title }}</h4>
                                                 <h5>{{ item.subtitle }}</h5>
                                             </div>
