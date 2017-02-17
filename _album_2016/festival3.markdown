@@ -1,4 +1,0 @@
----
-image_path: images/album2016/DSC06000.jpg
-title: Fluo Party
----

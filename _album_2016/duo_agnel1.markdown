@@ -1,4 +1,0 @@
----
-image_path: images/album2016/DSC05814.jpg
-title: Duo-Agnel
----

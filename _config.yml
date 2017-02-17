@@ -29,6 +29,12 @@ collections:
     output: true
   album_2011:
     output: true
+  album_2012:
+    output: true
+  album_2013:
+    output: true
+  album_2015:
+    output: true
   album_2016:
     output: true
 

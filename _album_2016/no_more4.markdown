@@ -1,4 +1,0 @@
----
-image_path: images/album2016/DSC05896.jpg
-title: No More
----

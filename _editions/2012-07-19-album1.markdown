@@ -1,6 +1,6 @@
 ---
 title: Edition 2012
-subtitle: Les Festi à Tivoly
+subtitle: Les Festi aux Routils
 annee: 2012
 layout: default
 modal-id: 5

@@ -1,4 +1,6 @@
-/* truc perso */
+/*************************
+**** Personnalisation ****
+**************************/
 
 .logo-img {
 	width: 160px;
@@ -101,4 +103,13 @@
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+/*******************
+****** Modals ******
+********************/
+
+.modal-footer {
+	display: flex;
+	justify-content: space-between;
 }

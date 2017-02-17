@@ -1,4 +1,0 @@
----
-image_path: images/album2016/DSC06040.jpg
-title: HillBillyFrogs
----

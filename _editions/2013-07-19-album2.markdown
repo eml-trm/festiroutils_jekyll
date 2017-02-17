@@ -1,6 +1,6 @@
 ---
 title: Edition 2013
-subtitle: Les Festi à Tivoly
+subtitle: Les Festi aux Routils
 annee: 2013
 layout: default
 modal-id: 5
