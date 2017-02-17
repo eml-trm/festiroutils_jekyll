@@ -1,10 +1,10 @@
 ---
 title: Edition 2013
-subtitle: Les Festi à Tivoly
+subtitle: Les Festi aux Routils
 annee: 2013
 layout: default
 modal-id: 5
-date: 19-07-2013
+date: 20-07-2013
 img: event2013.jpg
 alt: image-alt
 project-date: July 2013

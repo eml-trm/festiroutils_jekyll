@@ -1,0 +1,18 @@
+<section id="album">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 portfolio">
+                <h2 class="heading">Edition 2012</h2>
+                {% for image in site.album_2012 %}
+                    <div class="col-sm-4">
+                        <div class="single-event">
+                            <a class="gallery-img" href="#" data-image-id="" data-toggle="modal" data-title="" data-caption="" data-image="{{ image.image_path }}" data-target="#image-gallery">
+                                <img class="gallery-img img-responsive" src="{{ image.image_path }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section><!--/#event-->
