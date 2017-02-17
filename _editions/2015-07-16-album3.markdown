@@ -4,8 +4,8 @@ subtitle: Les Festi à Tivoly
 annee: 2015
 layout: default
 modal-id: 5
-date: 16-07-2015
-img: event1.jpg
+date: 18-07-2015
+img: event2015.jpg
 alt: image-alt
 project-date: July 2015
 

@@ -5,10 +5,9 @@
                 <h2 class="heading">Galerie photo</h2>
                 {% for image in site.editions reversed %}
                         <div class="col-sm-4">
-                            {{ image.annee }}
                             <div class="single-event">
                                 <a href="/album-{{ image.annee }}">
-                                    <img class="img-responsive carousel-img" style="width: auto" src="images/event/{{ image.title }}/{{ image.img }}" alt="{{ image.alt }}">
+                                    <img class="gallery-img img-responsive" src="images/event/{{ image.title }}/{{ image.img }}" alt="{{ image.alt }}">
                                 </a>
                                 <h4>{{ image.title }}</h4>
                                 <h5>{{ image.subtitle }}</h5>
