@@ -1,0 +1,4 @@
+---
+layout: informations
+title: Informations
+---
