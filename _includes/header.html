@@ -15,17 +15,17 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand" href="index.html">
+	                <a class="navbar-brand" href="/">
 	                	<img class="img-responsive" style="max-width: 70%; right:26px" src="images/logo-festi-white.png" alt="logo">
 	                </a>
 	            </div>
 	            <div class="collapse navbar-collapse">
 	                <ul class="nav navbar-nav navbar-right">
-	                    <li class="scroll active"><a href="#home">Accueil</a></li>
-	                    <li class="scroll"><a href="#explore">Évenements</a></li>
-	                    <li class="scroll"><a href="#event">Galerie</a></li>
-	                    <li class="scroll"><a href="#about">À propos</a></li>
-	                    <li class="scroll"><a href="#contact">Contact</a></li>
+	                    <li {% if page.url == "/" %} class="active"{% endif %}><a href="/">Accueil</a></li>
+	                    <li {% if page.url == "/informations.html" %} class="active"{% endif %}><a href="/informations">Informations</a></li>
+	                    <li {% if page.url == "/gallery.html" %} class="active"{% endif %}><a href="/gallery">Galerie</a></li>
+	                    <li class="scroll"><a href="/#about">À propos</a></li>
+	                    <li class="scroll"><a href="/#contact">Contact</a></li>
 	                </ul>
 	            </div>
 	        </div>
