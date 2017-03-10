@@ -261,7 +261,7 @@ h2 {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 130px 0 100px;
+  padding: 70px 0 50px;
 }
 
 .watch {
@@ -271,10 +271,28 @@ h2 {
 }
 
 #explore h2 {
+  color: #FFFFFF;
   font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 30px;
   text-transform: uppercase;
   text-align: center;
 }
+
+#explore h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 34px;
+  text-transform: uppercase;
+}
+
+#explore h3:hover {
+  color: #428bca;
+  text-decoration: underline;
+}
+
 
 #countdown {
   display: block;
@@ -391,7 +409,7 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #33888F;
+  background-color: #3f8a90;
   background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
   background-size: contain;
@@ -437,7 +455,7 @@ h2 {
 }
 
 #event-carousel {
-  position: relative;
+  position: fixed;
 }
 
 .even-control-left,
@@ -456,6 +474,9 @@ h2 {
   right: 0;
 }
 
+.event-infos {
+    margin: 70px;
+}
 
 /*************************
 *******About CSS**********
@@ -589,12 +610,13 @@ h2 {
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
+  height: 570px;
 }
 
 .light {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
 }
 
 #sponsor .col-sm-10 {
@@ -633,7 +655,7 @@ h2 {
   color: #FFFFFF;
   font-size: 24px;
   position: absolute;
-  top: 20%;
+  top: 60px;
 }
 
 .sponsor-control-left {
@@ -754,7 +776,7 @@ h2 {
 .light {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 120px;
 }
 
 #portfolio .col-sm-10 {
