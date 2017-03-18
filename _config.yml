@@ -16,10 +16,9 @@
 title: Les Festi Routils
 email: lesfestiroutils@yahoo.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Festival de musiques du monde "Les Festi'Routils" est situé à Marcilly-la-Campagne,
-  ce festival se déroule dans une ambiance très familiale.
-  Grâce à une programmation toujours très variée, mélangeant les styles et
-  les genres il ouvert à tout public.
+  Festival de musiques du monde dans une ambiance très familiale.
+  Une programmation toujours très variée, mélangeant les styles et
+  les genres.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://eml-trm.github.io/lesfestiroutils/" # the base hostname & protocol for your site, e.g. http://example.com
 
