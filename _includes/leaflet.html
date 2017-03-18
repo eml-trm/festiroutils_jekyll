@@ -1,0 +1,31 @@
+<script type="text/javascript">
+var map = null;
+initMap();
+
+function initMap() {
+
+    // variable à modifier en cas de changement d'adresse
+    var latitude = 48.820896;
+    var longitude = 1.186463;
+    var zoom = 5;
+    var max_zoom = 18;
+    var zoom_in = 12;
+
+    var options = {
+        center: new L.LatLng(latitude, longitude),
+        zoom: zoom
+    };
+
+    var osmUrl = 'https://tilecache.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
+        osmAttribution = 'Map data &copy; 2012 OpenStreetMap contributors',
+        osmLayer = new L.TileLayer(osmUrl, {
+        maxZoom: max_zoom,
+        attribution: osmAttribution
+    });
+
+    this.map = new L.Map('mapid', options).addLayer(osmLayer);
+    this.map.setView([latitude, longitude], zoom_in)
+
+    var marker = L.marker([latitude, longitude]).addTo(this.map);
+}
+</script>

@@ -681,6 +681,11 @@ h2 {
 /*************************
 ******Map CSS****
 **************************/
+
+#mapid {
+    height: 360px;
+}
+
 #map {
     flex-grow: 1;
     position: relative;
@@ -1064,6 +1069,7 @@ h2 {
 }
 
 .info-maps {
+    height: 360px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
