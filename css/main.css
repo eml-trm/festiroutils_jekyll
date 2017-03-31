@@ -1077,18 +1077,66 @@ h2 {
 }
 
 /*************************
+******Affiche CSS****
+**************************/
+
+#affiche {
+  background-color: #485160;
+
+}
+
+#affiche hr {
+    width: 30%;
+}
+
+#affiche h2 {
+  margin-bottom: 23px;
+}
+
+
+
+/*************************
 ******Program CSS****
 **************************/
 
 #program {
   background-color: #AFCE5F;
   background-image: url("../images/green-festi.png");
-  background-position:10% 0;
-  background-size: cover;
+  background-position:center;
+  background-size: contain;
   background-repeat:no-repeat;
   position: relative;
 }
 
+.progra-infos {
+    border: 2px solid white;
+    padding: 0.5em 1em;
+    margin: 0.1em 0.3em;
+    border-radius: 4px;
+    background-color: rgba(72, 81, 96, 0.34);
+}
+
+.progra-infos:hover {
+    border: 2px solid #485160;
+    background-color: #485160;
+}
+
+.group-program {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.program-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.program-links i {
+    padding-right: 5px;
+}
 
 #program h2 {
   margin-bottom: 23px;
@@ -1103,6 +1151,13 @@ h2 {
     text-align: center;
 }
 
+.program-content img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .program-content p {
   font-size: 17px;
   font-family: 'Dosis',sans-serif;
@@ -1114,22 +1169,14 @@ h2 {
 
 .program-content a:hover {
     color: #428bca;
+    cursor: pointer;
+    
 }
 
 .program-content h3 {
     text-align: center;
 }
 
-.program-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-}
-
-.program-links i {
-    padding-right: 5px;
-}
 
 
 #program .btn-primary {
